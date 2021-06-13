@@ -10,7 +10,6 @@ from markupsafe import escape
 
 from dataclasses import dataclass
 from datetime import datetime
-# from .db import DATABASE
 from .exceptions import ValidationError
 from collections import defaultdict
 DATABASE = {"users": {}, "appointments": defaultdict(list)}
